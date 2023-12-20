@@ -1,0 +1,46 @@
+.FAQ-container {
+    max-width: 600px;
+    
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.FAQ-container h2 {
+    
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.FAQ-container p {
+    
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.FAQ-table {
+    
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.FAQ-table,
+.FAQ-table th,
+.FAQ-table td {
+    
+    border-spacing: 10;
+    border-collapse: separate;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.FAQ-th,
+.FAQ-td {
+    background-color: rgb(25, 25, 25);
+    padding: 12px;
+    text-align: left;
+}
+  
