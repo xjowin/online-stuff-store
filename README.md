@@ -4,7 +4,7 @@ First, run the development server:
 
 ```bash
 npm i
-# then
+
 npm start
 ```
 
