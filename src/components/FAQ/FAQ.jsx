@@ -1,8 +1,10 @@
 import React from 'react';
 import '../../styles/FAQ.css';
+import styles from "../../styles/Home.module.css";
 
 const FAQ = () => {
   return (
+    <section className={styles.FAQ}>
     <div className="FAQ-container">
       <h2>FAQs</h2>
       <table className="FAQ-table">
@@ -28,6 +30,7 @@ const FAQ = () => {
         </tbody>
       </table>
     </div>
+    </section>
   );
 }
 
