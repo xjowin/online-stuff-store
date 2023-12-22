@@ -29,7 +29,7 @@ const Sidebar = () => {
 
       <div className={styles.footer}>
         <a href="FAQ" className={styles.link}
-        style={{ textDecoration: "underline" }}
+        // style={{ textDecoration: "underline" }}
         >
           FAQ
         </a>
