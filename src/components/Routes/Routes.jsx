@@ -9,6 +9,7 @@ import Profile from "../Profile/Profile";
 import SingleCategory from "../Categories/SingleCategory";
 import Cart from "../Cart/Cart";
 import FAQ from "../FAQ/FAQ";
+import NotFound from "../NotFound/NotFound";
 
 const AppRoutes = () => (
   <Routes>
@@ -18,6 +19,7 @@ const AppRoutes = () => (
     <Route path={ROUTES.CATEGORY} element={<SingleCategory />} />
     <Route path={ROUTES.CART} element={<Cart />} />
     <Route path={ROUTES.FAQ} element={<FAQ/>}/>
+    <Route path={ROUTES.NOTFOUND} element={<NotFound />} />
   </Routes>
 );
 
