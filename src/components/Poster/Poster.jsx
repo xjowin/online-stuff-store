@@ -6,12 +6,14 @@ import BG from "../../images/computer.png";
 
 const Poster = () => (
   <section className={styles.home}>
-    <div className={styles.title}>BIG SALE 20%</div>
+    <div className={styles.title}>BIG SALE</div>
     <div className={styles.product}>
       <div className={styles.text}>
-        <div className={styles.subtitle}>the bestseller of 2025</div>
-        <h1 className={styles.head}>Devices with NVIDIA GEFORCE RTX 5090</h1>
+        <div className={styles.subtitle}>the bestsellers of 2023</div>
+        <h1 className={styles.head}>Don't miss your chance</h1>
+        <a href = '#cheap-products'>
         <button className={styles.button}>Shop Now</button>
+        </a>
       </div>
       <div className={styles.image}>
         <img src={BG} alt="" />

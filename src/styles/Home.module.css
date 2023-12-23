@@ -127,3 +127,7 @@
   color: var(--violet);
   font-weight: 700;
 }
+
+.list {
+  width: 100%;
+}

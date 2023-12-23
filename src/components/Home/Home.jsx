@@ -8,6 +8,8 @@ import Categories from "../Categories/Categories";
 import Poster from "../Poster/Poster";
 import Products from "../Products/Products";
 
+import styles from "../../styles/Home.module.css";
+
 const Home = () => {
   const dispatch = useDispatch();
   const {
@@ -27,7 +29,9 @@ const Home = () => {
       <Products products={list} amount={5} title="Trending" />
       <Categories products={categories.list} amount={5} title="Worth seeing" />
       <Banner />
+      <div className = {styles.list} id = 'cheap-products'>
       <Products products={filtered} amount={5} title="Less than 100$" />
+      </div>
     </>
   );
 };
